@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(146, 178, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.carre{
+    width: 200px;
+    height: 200px;
+    /* bordure du carre */
+    border: 2rem solid white;
+}
+
+.carre1 {
+    /* position du carre */
+    position: relative;
+    /* position top */
+    top: 70px;
+    left: 150px;
+}
